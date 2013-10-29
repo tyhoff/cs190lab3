@@ -15,7 +15,7 @@ ZSH_THEME="cs190"
 # CASE_SENSITIVE="true"
 
 # Comment this out to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
@@ -40,10 +40,14 @@ ZSH_THEME="cs190"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git tmux zsh-syntax-highlighting)
+plugins=(git tmux zsh-syntax-highlighting extract)
 
 if [ "`uname`" != "SunOS" ]; then
     source $ZSH/oh-my-zsh.sh
-else
-	stty erase ^?
 fi
+
+
+# ----------------
+# Personal Aliases
+# ----------------
+alias p="pwd"

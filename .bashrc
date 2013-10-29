@@ -17,9 +17,6 @@ if [ "$TERM" != "dumb" ]; then
 	PS1="\[\033[01;32m\]\u@\h:\[\033[01;34m\]\w\[\033[00m\]$ "
 fi
 
-#ease of use
-alias ..="cd .."
-
 #default for Purdue CS students
 alias mail=mailx 
 
@@ -27,3 +24,12 @@ alias mail=mailx
 set show-all-if-ambiguous on
 set show-all-if-unmodified on
 set completion-ignore-case on
+
+
+# ----------------
+# Personal Aliases
+# ----------------
+alias ..="cd .."
+alias la="ls -al"
+alias lt="ls -lt"
+alias ll="ls -l"
