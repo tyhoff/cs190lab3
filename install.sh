@@ -80,7 +80,8 @@ echo -e "This tool comes with no warranty. If it messes something up, I"
 echo -e "am not liable, but it should work."
 echo -e "\nThis tool will backup dotfiles to the folder \"~/backup_dotfiles\""
 
-echo -e "\nNOTE: To see changes after running the script you must logout+login.\n"
+echo -e "\nNOTE: To see changes after running the script you must close your\n"
+echo -e "terminal and open a new one.\n"
 
 echo -e "Enjoy!\n"
 
