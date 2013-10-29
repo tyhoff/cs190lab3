@@ -30,6 +30,7 @@ set completion-ignore-case on
 # Personal Aliases
 # ----------------
 alias ..="cd .."
+alias p="pwd"
 alias la="ls -al"
 alias lt="ls -lt"
 alias ll="ls -l"
